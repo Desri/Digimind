@@ -1,0 +1,331 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 20px;
+  color: #212529;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  color: #212529;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-family: 'Roboto', sans-serif;
+}
+
+a:focus, a:hover {
+  color: #0085A1;
+  text-decoration: none;
+}
+
+.fixed-tops .navbar-brand img{
+  width: 195px;
+}
+.fixed-tops .navbar-collapse ul li a {
+  font-size: 14px;
+}
+.fixed-tops .navbar-collapse ul li a:after {
+  display: none;
+}
+
+
+#masterBanner .colMasterSlider {
+  position: relative;
+}
+#masterBanner .captions {
+  position: absolute;
+  bottom: 50px;
+  background: #0c6fb7;
+  opacity: 0.7;
+  width: 80%;
+  color: #ffffff;
+  padding: 20px;
+}
+#masterBanner .captions span {
+  font-size: 13px;
+}
+#masterBanner .captions h2 {
+  margin-top: 8px;
+}
+#masterBanner .captions p {
+  font-size: 15px;
+}
+#masterBanner .bannerSlide .owl-carousel .owl-nav {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+#masterBanner .bannerSlide .owl-carousel .owl-nav button{
+  width: 35px;
+  height: 35px;
+  border-radius: 0px;
+  border: 1px solid #ffffff;
+}
+#masterBanner .bannerSlide .owl-carousel .owl-nav button:hover{
+  background: #0854ff;
+  border: 1px solid #0854ff;
+}
+#masterBanner .bannerSlide .owl-carousel .owl-nav button span{
+  color: #ffffff;
+}
+#masterBanner .subBanner .subImage{
+  height: 290px;
+  position: relative;
+}
+#masterBanner .descSubimage {
+  bottom: 0;
+  padding: 15px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 12px;
+  position: absolute;
+}
+
+#content .slideThumb {
+  margin-top: 25px;
+}
+#content .slideThumb .slider figure {
+  margin-bottom: 0px;
+  position: relative;
+}
+#content .slideThumb .slider figure .iconVideos {
+  top: 0;
+  position: absolute;
+}
+#content .slideThumb .slider figure .iconVideos img{
+  width: 80px;
+}
+#content .slideThumb .media {
+  padding: 20px;
+  color: #ffffff;
+  background: #0063a6;
+}
+#content .slideThumb .media img{
+  width: 60px;
+}
+#content .slideThumb .slider-nav-thumbnails {
+  background: #005795;
+  padding: 20px 25px 12px 25px;
+}
+#content .slideThumb .slider-nav-thumbnails .slick-prev {
+  left: 2px;
+}
+#content .slideThumb .slider-nav-thumbnails .slick-next {
+  right: 2px;
+}
+#content .slideThumb .slider-nav-thumbnails .slick-dots {
+  display: none !important;
+}
+#content .slideThumb .media .media-body{
+  padding-top: 4px;
+}
+#content .slideThumb .media .media-body h2{
+  font-size: 14px;
+}
+#content .slideThumb .media .media-body p{
+  font-size: 11px;
+  margin-bottom: 0px;
+}
+
+#content .slideDiscuss {
+  margin-top: 25px;
+}
+#content .slideDiscuss .diskusi .owl-carousel .owl-nav {
+  top: 33%;
+  width: 100%;
+  position: absolute;
+}
+#content .slideDiscuss .diskusi .owl-carousel .owl-nav button{
+  width: 35px;
+  height: 35px;
+  color: #ffffff;
+  border-radius: 0px;
+  border: 1px solid #ffffff;
+}
+#content .slideDiscuss .diskusi .owl-carousel .owl-nav button:hover{
+  background: #0854ff;
+  border: 1px solid #0854ff;
+}
+#content .slideDiscuss .diskusi .owl-carousel .owl-nav button.owl-prev{
+  float: left;
+}
+#content .slideDiscuss .diskusi .owl-carousel .owl-nav button.owl-next{
+  float: right;
+}
+#content .headline {
+  margin-top: 25px;
+}
+#content .headline .articleHeadline {
+  padding: 15px;
+  color: #ffffff;
+  background: #0c6fb7;
+}
+#content .headline .articleHeadline .line {
+  height: 2px;
+  width: 10px;
+  margin-bottom: 15px;
+  background: #2aabe1;
+}
+#content .headline .articleHeadline h2{
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+#content .headline .articleHeadline p{
+  font-size: 13px;
+  line-height: 20px;
+}
+#content .headline .articleHeadline .more p{
+  color: #2aabe1;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+#content .beritaKegiatan {
+  padding: 15px;
+  margin-top: 25px;
+  border: 1px solid #dddddd;
+}
+#content .beritaKegiatan .kegiatan h2{
+  font-size: 18px;
+  color: #0c6fb7;
+  margin-bottom: 3px;
+}
+#content .beritaKegiatan .kegiatan .line{
+  height: 2px;
+  width: 10px;
+  margin-bottom: 15px;
+  background: #2aabe1;
+}
+#content .beritaKegiatan .slideKegiatan .item .title h2 {
+  color: #1c2e36;
+  font-size: 13px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#content .beritaKegiatan .slideKegiatan .owl-carousel .owl-nav {
+  float: left;
+}
+#content .beritaKegiatan .slideKegiatan .owl-carousel .owl-nav button {
+  width: 35px;
+  height: 35px;
+  border-radius: 0px;
+  border: 1px solid #dadada;
+}
+#content .beritaKegiatan .slideKegiatan .owl-carousel .owl-nav button:hover {
+  background: #0854ff;
+  border: 1px solid #0854ff;
+}
+#content .beritaKegiatan .slideKegiatan .owl-carousel .owl-nav button span{
+  color: #dadada;
+}
+#content .beritaKegiatan .slideKegiatan .item .shareArticle {
+  margin-bottom: 10px;
+}
+#content .beritaKegiatan .slideKegiatan .item .shareArticle .date p {
+  color: #cccccc;
+  font-size: 11px;
+  margin-bottom: 0px;
+}
+#content .beritaKegiatan .slideKegiatan .item .article .articleKegiatan p {
+  color: #4e4e4e;
+  font-size: 12px;
+}
+#content .beritaKegiatan .listKegiatan .media {
+  margin-bottom: 15px;
+}
+#content .beritaKegiatan .listKegiatan .media img {
+  width: 100px;
+}
+#content .beritaKegiatan .listKegiatan .media .media-body p {
+  font-size: 12px;
+  line-height: 17px;
+}
+#content .beritaKegiatan .listKegiatan .media .media-body .date p {
+  color: #b7b7b7;
+  margin-bottom: 0px;
+}
+
+
+
+#sosmed {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#sosmed .listSosmed .shareIcon {
+  width: 5%;
+  float: left;
+  height: 70px;
+  color: #2aabe1;
+  line-height: 70px;
+  text-align: center;
+  background: #0c6fb7;
+}
+#sosmed .listSosmed .listIcons .boxIcon {
+  height: 70px;
+  padding-top: 17px;
+  padding-left: 50px;
+  border: 1px solid #dddddd;
+}
+#sosmed .listSosmed .listIcons .boxIcon a .icon {
+  float: left;
+  margin-right: 10px;
+}
+#sosmed .listSosmed .listIcons .boxIcon a .val {
+  float: left;
+}
+#sosmed .listSosmed .listIcons .boxIcon a .val p{
+  margin-bottom: 0px;
+}
+#sosmed .listSosmed .listIcons .boxIcon a .val p.count {
+  font-size: 13px;
+  font-weight: 600;
+  color: #3a3a3a;
+}
+#sosmed .listSosmed .listIcons .boxIcon a .val p.likes {
+  font-size: 11px;
+  color: #909090;
+}
+
+
+footer {
+  height: 110px;
+  padding-top: 33px;
+  background: #005795;
+  border-bottom: 8px solid #2aabe1;
+}
+footer .copyright p {
+  color: #efefef;
+  font-size: 12px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+footer .linkFooter ul {
+  padding: 0px;
+  float: right;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+footer .linkFooter ul li {
+  float: left;
+  margin-left: 10px;
+  list-style: none;
+}
+footer .linkFooter ul li a{
+  color: #2aabe1;
+  font-size: 12px;
+}
